@@ -1,0 +1,11 @@
+# Firmware Dahua (licencja nie pozwala na redystrybucje) i pliki lokalne
+download/
+tftproot/
+held/
+logs/
+*.bin
+*.img
+*.zip
+upgrade_info_*.txt
+.DS_Store
+__pycache__/

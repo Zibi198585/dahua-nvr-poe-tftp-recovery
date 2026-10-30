@@ -1,0 +1,10 @@
+tftp kernel-aol.img; flwrite
+tftp romfs-x-aol.squashfs.img; flwrite
+tftp dhdtb-bak.bin.img; flwrite
+tftp dhdtb.bin.img; flwrite
+tftp kernel.img; flwrite
+tftp romfs-x.squashfs.img; flwrite
+tftp pd-x.squashfs.img; flwrite
+tftp web-x.squashfs.img; flwrite
+tftp firmware-x.squashfs.img; flwrite
+tftp .FLASHING_DONE_STOP_TFTP_NOW
